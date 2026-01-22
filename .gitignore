@@ -1,3 +1,6 @@
+# Docker-generated root folders (do not track)
+pipeline/ny_taxi_postgres_data/**/docker/
+
 *.parquet
 
 # Byte-compiled / optimized / DLL files
@@ -213,3 +216,6 @@ __marimo__/
 # docker run -it --entrypoint=bash -v $(pwd)/test:/app/test python:3.13.11-slim
 # pip install uv
 # uv init --python 3.13
+# docker run -it --entrypoint=bash --rm  test:pandas
+# docker run -it test:pandas some_number
+# uv run jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser
