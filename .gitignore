@@ -218,4 +218,8 @@ __marimo__/
 # uv init --python 3.13
 # docker run -it --entrypoint=bash --rm  test:pandas
 # docker run -it test:pandas some_number
+# uv run pgcli -h localhost -p 5432 -u root -d ny_taxi
 # uv run jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser
+
+
+
